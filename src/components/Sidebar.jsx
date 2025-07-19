@@ -4,7 +4,7 @@ import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
 
 const Sidebar = ({ chats, currentChatId, onNewChat, onSelectChat }) => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleSidebar = () => setIsOpen((prev) => !prev);
 

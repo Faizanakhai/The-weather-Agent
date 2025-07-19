@@ -1,12 +1,68 @@
-# React + Vite
+# 🌤️ The Weather Agent
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React-based chat interface where users can interact with an AI-powered weather assistant to get weather updates for any city. Features multi-chat support with persistent local storage, clean UI, and mobile-first responsive design.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧠 Chat with an AI weather agent in real-time
+- 💬 Multiple chat sessions with unique IDs
+- 💾 Chats persist using localStorage (even after page reload)
+- 📱 Fully responsive UI (mobile + desktop)
+- 🧭 Sidebar to view and switch between old chats
+- 🆕 One-click new chat creation
+- ⏱ Timestamps for all messages
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Desktop View
+
+<img src="./screenshots/desktop-view.png" width="800"/>
+
+### Mobile View
+
+<img src="./screenshots/mobile-view.png" width="300"/>
+
+> Replace the image paths above with your actual screenshot files and correct file names in a /screenshots directory in the repo.
+
+## 🚀 Getting Started
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/Faizanakhai/The-weather-Agent.git
+cd The-weather-Agent
+npm install
+npm start
+```
+
+Now visit http://localhost:3000 to interact with the app!
+
+## 🧱 Tech Stack
+
+- React
+- Tailwind CSS
+- LocalStorage
+- Fetch API for backend integration
+
+## 🗃 Folder Structure (Simplified)
+
+```
+src/
+├── components/
+│   ├── ChatBox.jsx
+│   ├── Sidebar.jsx
+│   ├── InputBox.jsx
+│   └── MessageBubble.jsx
+├── utils/
+│   └── api.js
+└── App.jsx
+```
+
+## 📦 Deployment
+
+This app can be deployed on Vercel, Netlify, or GitHub Pages.
+
+## 🙌 Acknowledgements
+
+- Built as part of a Frontend Engineer assignment.
+- Weather responses powered via API integration with a simulated weather agent.
