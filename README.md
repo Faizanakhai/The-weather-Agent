@@ -16,13 +16,11 @@ A responsive React-based chat interface where users can interact with an AI-powe
 
 ### Desktop View
 
-<img src="./screenshots/desktop-view.png" width="800"/>
+<img width="1919" height="918" alt="image" src="https://github.com/user-attachments/assets/3bd01b22-55da-4878-bbf2-a983c8a410fa" width="800"/>
 
 ### Mobile View
 
-<img src="./screenshots/mobile-view.png" width="300"/>
-
-> Replace the image paths above with your actual screenshot files and correct file names in a /screenshots directory in the repo.
+<img width="368" height="798" alt="image" src="https://github.com/user-attachments/assets/a2e1262f-e9a2-42d0-acdc-dac9f065940f" width="300"/>
 
 ## 🚀 Getting Started
 
